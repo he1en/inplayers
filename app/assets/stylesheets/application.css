@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+.bookmark-card{
+  float: left;
+  position: relative;
+  margin-left: 9px;
+  margin-right: 9px;
+  height: 370px;
+  width: 370px;
+  margin-bottom: 10px;
+}

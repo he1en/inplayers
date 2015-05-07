@@ -1,0 +1,12 @@
+  <% content_for :title, "Bookmarked" %>
+
+ <div class = "content">
+	<% @activities.each do |activity| %>
+		<p>
+			Name: <%= activity.name %>
+		</p>
+		<p>
+			Cost: <%= activity.cost %>
+		</p>
+	<% end %>
+</div>

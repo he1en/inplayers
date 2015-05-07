@@ -1,9 +1,9 @@
   <% content_for :title, "Bookmarked" %>
 
-  <% @activities.each do |activity| %>
   <div class="text-center">
+  <% @activities.each do |activity| %>
     <div class="bookmark-card">
       <%= render :partial=>"bookmark", :locals=>{activity: activity} %>
     </div>
-  </div>
   <% end %>
+  </div>

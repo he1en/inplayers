@@ -5,6 +5,7 @@ class ActivityController < ApplicationController
   end
 
   def show
+  	@activity = Activity.find_by_id(params[:id])
   end
 
   def bookmarked

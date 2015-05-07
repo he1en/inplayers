@@ -3,7 +3,10 @@
  <div class = "content">
 	<% @activities.each do |activity| %>
 		<p>
-			<%= activity.name %>
+			Name: <%= activity.name %>
+		</p>
+		<p>
+			Cost: <%= activity.cost %>
 		</p>
 	<% end %>
 </div>
